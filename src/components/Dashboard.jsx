@@ -73,7 +73,6 @@ function Dashboard() {
       },
     }}>
       <Paper elevation={6} sx={glassStyle}>
-        {/* Top-right Logout button */}
         <Box sx={{ position: 'absolute', top: 16, right: 16, zIndex: 1 }}>
           <Button variant="contained" color="secondary" disabled={loggingOut} sx={{ fontWeight: 600, fontSize: 18, letterSpacing: 1, background: 'linear-gradient(90deg, #80deea 0%, #b388ff 100%)', color: '#222', boxShadow: '0 2px 8px #80deea55', transition: '0.2s', '&:hover': { background: 'linear-gradient(90deg, #b388ff 0%, #80deea 100%)', color: '#000' } }} onClick={handleLogout}>
             {loggingOut ? 'Logging out' : 'Logout'}{loggingOut && <CircularProgress size={18} color="inherit" sx={{ ml: 1 }} />}

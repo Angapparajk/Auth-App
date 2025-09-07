@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Simple animated floating shapes using CSS
 const AnimatedBackground = () => (
   <div className="animated-bg">
     {[...Array(12)].map((_, i) => (

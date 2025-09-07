@@ -7,7 +7,6 @@ import ProtectedRoute from './components/ProtectedRoute.jsx';
 import NotFound from './components/NotFound.jsx';
 
 function App() {
-	// For now, authentication state will be handled in each page
 	return (
 		<Router>
 			<Routes>
